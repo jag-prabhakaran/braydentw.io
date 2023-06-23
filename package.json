@@ -1,7 +1,10 @@
 {
+  "homepage": "http://jag-prabhakaran.github.io/jag-port",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "next build",
     "start": "next start",
     "serve": "next serve"
