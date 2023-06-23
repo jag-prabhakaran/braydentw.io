@@ -36,7 +36,7 @@ export const routes: Route[] = [
     path: "/projects",
   },
   {
-    title: "Designs",
+    title: "About",
     path: "/designs",
   },
 ];
@@ -63,7 +63,7 @@ export const footer: Footer = {
           leavesWebsite: false,
         },
         {
-          name: "Designs",
+          name: "About",
           link: "/designs",
           leavesWebsite: false,
         },
@@ -74,31 +74,20 @@ export const footer: Footer = {
       links: [
         {
           name: "GitHub",
-          link: "https://github.com/braydentw",
+          link: "https://github.com/jag-prabhakaran",
           icon: "/static/icons/github-f.svg",
           leavesWebsite: true,
         },
         {
           name: "LinkedIn",
-          link: "https://www.linkedin.com/in/braydentw/",
+          link: "https://www.linkedin.com/in/jag-p/",
           icon: "/static/icons/linkedin-f.svg",
           leavesWebsite: true,
         },
-        {
-          name: "Dribbble",
-          link: "https://dribbble.com/braydentw",
-          icon: "/static/icons/dribbble-f.svg",
-          leavesWebsite: true,
-        },
-        {
-          name: "IndieHackers",
-          link: "https://indiehackers.com/braydentw",
-          icon: "/static/icons/indiehackers-f.svg",
-          leavesWebsite: true,
-        },
+
         {
           name: "Email",
-          link: "mailto:contact@braydentw.io",
+          link: "jag.prabhakaran@gmail.com",
           icon: "/static/icons/mail-f.svg",
           leavesWebsite: true,
         },
