@@ -12,11 +12,11 @@ function Projects() {
         <SectionTitle title="Here are a few of my favorite projects." />
       </div>
       <div className="grid grid-cols-1 gap-12 md:gap-5 md:grid-cols-3 items-start">
-        {projects.slice(0, 3).map((item) => {
-          return (
-            <ProjectCard key={item.id} project={item} />
-          );
-        })}
+      {[projects[0], projects[2], projects[3]].map((item) => {
+        if (!item) return null; // This line ensures that undefined items are not processed.
+        return <ProjectCard key={item.id} project={item} />;
+      })}
+
       </div>
       <div className="relative w-full mt-2">
         <Link href="/projects">
